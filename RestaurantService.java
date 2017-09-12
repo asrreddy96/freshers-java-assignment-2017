@@ -1,4 +1,4 @@
-spackage Service;
+package Service;
 import Model.*;
 import java.io.*;
 import java.util.*;
@@ -149,36 +149,39 @@ public class RestaurantService {
     
     public void billGeneration(HashMap<String,Integer> items)
     {
-    	int total=0;
-    	try
-    	{
-    	FileInputStream fstream = new FileInputStream("src/main/java/menu.txt");
-    	BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+    	
+		try{
+			// Open the file
+			FileInputStream fstream = new FileInputStream("c:/santhosh/project/menu1.txt");
+			BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+            String a[]=new String[40];
+			String b[]=new String[40];
+			String strLine;
+			Set set=items.keySet();
+			Object[] o=set.toArray();
+			int olen=o.length;
+			int k=0;
+			while ((strLine = br.readLine()) != null)   
+				{
+                 String arr[]=strLine.split("-");
 
-    	String strLine= br.readLine();
-
-    	//Read File Line By Line
-    	while (strLine!= null)   
-    	{
-    		String[] arr=strLine.split("-");
-    		    String s=arr[0];
-    		    int a[][]=new int[][];
-    		    	System.out.println(items.containsKey(s));
-    		    
- 
-    	     /*  int var= items.get(arr[0].trim());
-			    if(var!=0)
-			    {
-			    	System.out.println(var);
-			    }*/
-    		 
-    		    strLine=br.readLine();
-    		    
-    	}
-		br.close();
-		
-          
-    	}
+					 a[k]=arr[0];
+					 b[k]=arr[2];
+				}
+			       int alen=a.length;
+			   for( int i=0;i<olen;i++)
+			{
+				   for(int j=0;j<alen;j++)
+				{
+					if(o[i].equals(a[j].trim()))
+					{
+						System.out.println(b[j].trim());
+						k++;
+                    }
+					break;
+				}
+            }br.close();
+			   }
 		catch(Exception e)
     	   {
 			System.out.println(e.getMessage());
@@ -198,12 +201,26 @@ public class RestaurantService {
     {
     	System.out.println("Customer:paid the bill");
     }
-    public void receiveComplaints()
+  /*  public void receiveFeedBack()
     {
-    	
-    }   
-   
     
+    	System.out.println("Feedback");
+    	System.out.println("enter customer name");
+    	Scanner s=new Scanner(System.in);
+    	String name=s.next();
+    	System.out.println("please give the feed back" );
+    	String feedBack=s.next();
+    	try{
+    	FileWriter fw=new FileWriter("src/main/java/complaints.txt");
+   	     PrintWriter pw=new PrintWriter(fw);
+   	       pw.println(name+"\t::\t"+feedBack);
+   	       pw.close();
+    	}  catch(Exception e)
+    	{
+         e.printStackTrace();
+   
+    	}     
+    	}  */
 
 
 
