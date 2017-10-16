@@ -1,0 +1,32 @@
+fieldset
+{
+    opacity:0.8;
+    background-color:rgb(255,235,205);
+    border:1px solid white;
+    position:relative;
+	margin:0 200px;
+}
+h2
+{
+    color:rgb(255,20,147);
+    font-size:300%;
+    font-family:"Times New Roman", Georgia, Serif;
+}
+marquee
+{
+	position:relative;
+	right:0;
+	top:0
+}
+button
+{
+	height:50px;
+	width:100px;
+	float:center;
+	margin:0 400px;
+}
+a
+{
+	text-decoration:none;
+	font-size:100%;
+}

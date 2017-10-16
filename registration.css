@@ -1,0 +1,28 @@
+fieldset
+{
+    opacity:0.8;
+    background-color:#AAA;
+    border:1px solid white;
+    position:relative;
+    margin:0 200px;
+    color:rgb(0,0,128);
+}
+h1
+{
+    color:rgb(255,215,0);
+    font-size:300%;
+}
+button
+{
+	height:50px;
+	width:100px;
+	float:center;
+	margin:0 400px;
+}
+a
+{
+	text-decoration:none;
+	font-size:100%;
+	color:rgb(0,0,128);
+}
+	
