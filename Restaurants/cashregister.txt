@@ -1,0 +1,2 @@
+Table		   Bill
+Table.no:1		480

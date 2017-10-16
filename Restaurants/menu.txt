@@ -1,0 +1,40 @@
+ID    Item_Name                       Quantity       price             
+          --:::::::::::::::Starters:::::::::::::::--
+1-  Veg_Manchow_Soup                   - 1 -          120                 
+2-  Sweet_Corn_Vegetable_Soup          - 1 -          120                 
+3-  Veg_Hot&Sour_Soup                  - 1 -          110                 
+4-  Baby_Corn_Manchurian               - 1 -          100                  
+5-  Veg_Manchurian                     - 1 -           90                  
+6-  Gobi_Manchurian                    - 1 -           90                   
+7-  Paneer_65                          - 1 -          150                  
+8-  Veg_Spring_Roll                    - 1 -          150                 
+9-  Veg_Noodles                        - 1 -          120                
+         --::::::::::::::::Curries::::::::::::::::--
+10- Dal_Fry                            - 1 -          150               
+11- Dal_Makhani                        - 1 -          150                
+12- Kadai_Veg                          - 1 -          200                             
+13- Kadai_Paneer                       - 1 -          200               
+14- Malai_Kofta                        - 1 -          210               
+15- Paneer_Butter_Masala               - 1 -          250              
+16- Palak_Paneer                       - 1 -          220                
+         --::::::::::::::::Rotis::::::::::::::::::--
+17- Tandoori                           - 1 -           50                 
+18- Rumal                              - 1 -           50                 
+19- Butter                             - 1 -           60                 
+         --::::::::::::::::Biryanis:::::::::::::::--
+20- Veg_Biryani                        - 1 -          160               
+21- Tomato_Biryani                     - 1 -          160               
+22- Aloo_Biryani                       - 1 -          180               
+23- Paneer_Biryani                     - 1 -          200               
+24- Gobi_Biryani                       - 1 -          180             
+         --::::::::::::::::Naans::::::::::::::::::--
+25- Butter_Naan                        - 1 -           80                
+26- Plain_Naan                         - 1 -           70                
+         --::::::::::::::::Desserts:::::::::::::::--
+27- Double_Ka_Meetha                   - 1 -          100              
+28- Qubani_Ka_Meetha                   - 1 -          150               
+29- Gajar_Ka_Halwa                     - 1 -          120               
+30- Gulab_Jamun                        - 1 -          100               
+         --::::::::::::::::Beverages::::::::::::::--
+31- Coke                               - 1 -           80                
+32- ThumsUp                            - 1 -           80                            
